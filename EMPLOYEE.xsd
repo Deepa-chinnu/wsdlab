@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smita:schema xmlns:smita="http://www.w3.org/2001/XMLSchema">
+<smita:element name="COMPANY">
+<smita:complexType>
+<smita:sequence>
+<smita:element name="EMPLOYEE">
+<smita:complexType>
+<smita:sequence>
+<smita:element name="Emp_ID" type="smita:integer"></smita:element>
+<smita:element name="Emp_Name" type="smita:string"></smita:element>
+<smita:element name="Emp_Age" type="smita:integer"></smita:element>
+<smita:element name="Salary" type="ESalary"></smita:element>
+<smita:element name="Emp_Email_ID" type="smita:string"></smita:element>
+<smita:element name="Emp_Phone" type="smita:integer"></smita:element>
+<smita:element name="Emp_Designation" type="smita:string"></smita:element>
+<smita:element name="Promotion" type="EPromotion"></smita:element>
+</smita:sequence>
+</smita:complexType>
+</smita:element>
+</smita:sequence>
+</smita:complexType>
+</smita:element>
+<smita:simpleType name="EPromotion">
+<smita:restriction base="smita:integer">
+</smita:restriction>
+</smita:simpleType>
+<smita:simpleType name="ESalary">
+<smita:restriction base="smita:integer">
+<smita:maxExclusive value="200000"></smita:maxExclusive>
+<smita:minExclusive value="50000"></smita:minExclusive>
+</smita:restriction>
+</smita:simpleType>
+</smita:schema>

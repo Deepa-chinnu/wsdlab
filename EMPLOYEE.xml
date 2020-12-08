@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="EMPLOYEE.xsl"?>
+<COMPANY xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EMPLOYEE.xsd">
+  <EMPLOYEE>
+    <Emp_ID>101</Emp_ID>
+    <Emp_Name>Mrs.Malini</Emp_Name>
+    <Emp_Age>52</Emp_Age>
+    <Salary>60000</Salary>
+    <Emp_Email_ID>Ma34gmail.com</Emp_Email_ID>
+    <Emp_Phone>9845327863</Emp_Phone>
+    <Emp_Designation>Manager</Emp_Designation>
+    <Promotion></Promotion>
+  </EMPLOYEE>
+  
+   <EMPLOYEE>
+    <Emp_ID>102</Emp_ID>
+    <Emp_Name>Mr.YOGESH</Emp_Name>
+    <Emp_Age>37</Emp_Age>
+    <Salary>87400</Salary>
+    <Emp_Email_ID>Yogesh2gmail.com</Emp_Email_ID>
+    <Emp_Phone>8754894567</Emp_Phone>
+    <Emp_Designation>ASSISTANT GM</Emp_Designation>
+    <Promotion></Promotion>
+  </EMPLOYEE>
+  
+   <EMPLOYEE>
+    <Emp_ID>103</Emp_ID>
+    <Emp_Name>Mr.VARMA</Emp_Name>
+    <Emp_Age>54</Emp_Age>
+    <Salary>109898</Salary>
+    <Emp_Email_ID>VR32gmail.com</Emp_Email_ID>
+    <Emp_Phone>7867845435</Emp_Phone>
+    <Emp_Designation>SENIOR MANAGER</Emp_Designation>
+    <Promotion></Promotion>
+  </EMPLOYEE>
+  
+   <EMPLOYEE>
+    <Emp_ID>104</Emp_ID>
+    <Emp_Name>Mrs.VANITHA</Emp_Name>
+    <Emp_Age>25</Emp_Age>
+    <Salary>60000</Salary>
+    <Emp_Email_ID>Vanithagmail.com</Emp_Email_ID>
+    <Emp_Phone>9845673421</Emp_Phone>
+    <Emp_Designation>GENERAL MANAGER</Emp_Designation>
+    <Promotion></Promotion>
+  </EMPLOYEE>
+  
+  <EMPLOYEE>
+    <Emp_ID>105</Emp_ID>
+    <Emp_Name>Mrs.SUDHA</Emp_Name>
+    <Emp_Age>35</Emp_Age>
+    <Salary>54600</Salary>
+    <Emp_Email_ID>SUDHAgmail.com</Emp_Email_ID>
+    <Emp_Phone>7767549373</Emp_Phone>
+    <Emp_Designation>PRODUCTION MANAGER</Emp_Designation>
+    <Promotion></Promotion>
+  </EMPLOYEE>
+  
+  
+</COMPANY>
